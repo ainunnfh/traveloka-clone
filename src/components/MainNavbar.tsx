@@ -5,7 +5,7 @@ import ListsMenu from "./ListsMenu";
 const MainNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="relative flex justify-between p-2 ">
+    <div className="relative flex justify-between p-2 border-b border-slate-200">
       <div className="">
         <img src="/traveloka-white.webp" alt="" className="w-28 " />
       </div>
@@ -39,7 +39,7 @@ const MainNavbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-12 right-0 p-4 shadow-md rounded-md">
+        <div className="absolute top-12 right-0 p-4 w-1/2 shadow-md rounded-md">
           <ListsMenu />
         </div>
       )}
