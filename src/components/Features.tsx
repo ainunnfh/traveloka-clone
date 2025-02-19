@@ -13,8 +13,8 @@ const Features = () => {
   return (
     <div className="relative flex text-white flex-wrap justify-center md:justify-around md:w-3/4">
       {[
-        { icon: <Hotel />, label: "Hotel" },
-        { icon: <Plane />, label: "Flights", active: true },
+        { icon: <Hotel />, label: "Hotel", active: true },
+        { icon: <Plane />, label: "Flights" },
         { icon: <TrainFront />, label: "Trains" },
         { icon: <BusFront />, label: "Bus & Travel" },
         { icon: <Car />, label: "Car Rental" },
