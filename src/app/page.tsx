@@ -3,7 +3,6 @@ import Coupons from "@/components/Coupons";
 import Features from "@/components/Features";
 import HotelForm from "@/components/HotelForm";
 import MainNavbar from "@/components/MainNavbar";
-import Navbar from "@/components/Navbar";
 import SubFeatures from "@/components/SubFeatures";
 import Trust from "@/components/Trust";
 
@@ -11,8 +10,10 @@ export default function Home() {
   return (
     <div className="p-6">
       <Background />
-      <MainNavbar />
-      <Navbar />
+      <div className="relative w-full">
+        <MainNavbar />
+      </div>
+
       <div className="relative text-3xl text-center text-white font-bold mt-8">
         From Southeast Asia to the World, All Yours.
       </div>
