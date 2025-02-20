@@ -66,7 +66,7 @@ const MainNavbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="absolute top-12 right-0 p-4 w-1/2 shadow-md rounded-md">
+          <div className="absolute top-12 right-0 p-4 w-1/2 shadow-md bg-slate-300 rounded-md">
             <ListsMenu isScrolled={true} />
           </div>
         )}
